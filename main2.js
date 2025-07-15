@@ -3,99 +3,117 @@ let questions = [
   {
     quiz_id: 1,
     question:
-      "You can learn a lot about the local _______ by talking to local people.",
-    answers: ["territory", "area", "land", "nation"],
+      "Thông tư 143/2023/TT-BQP có bao nhiêu nguyên tắc xử lý kỷ luật?",
+    answers: [
+      "7", 
+      "8", 
+      "9", 
+      "10"
+    ],
   },
   {
     quiz_id: 2,
     question:
-      "It's good to have someone to ________ you when you are visiting a new place.",
-    answers: ["lead", "take", "guide", "bring"],
+      "Thông tư 143/2023/TT-BQP có bao nhiêu đối tượng áp dụng?",
+    answers: ["5", "6", "7", "8"],
   },
   {
     quiz_id: 3,
     question:
-      "When you ______ your destination, your tour guide will meet you at the airport.",
-    answers: ["arrive", "reach", "get", "achieve"],
+      "Thông tư 143/2023/TT-BQP có bao nhiêu tình tiết giảm nhẹ, tăng nặng?",
+    answers: [
+      "4 tình tiết giảm nhẹ, 5 tình tiết tăng nặng", 
+      "4 tình tiết giảm nhẹ, 4 tình tiết tăng nặng", 
+      "5 tình tiết giảm nhẹ, 5 tình tiết tăng nặng", 
+      "5 tình tiết giảm nhẹ, 4 tình tiết tăng nặng"],
   },
   {
     quiz_id: 4,
-    question: "It can be quite busy here during the tourist ______",
-    answers: ["season", "phase", "period", "stage"],
+    question: "Thông tư 143/2023/TT-BQP quy định thời hiệu xử lý kỷ luật khiển trách là bao lâu?",
+    answers: ["5 năm", "6 năm", "7 năm", "4 năm"],
   },
   {
     quiz_id: 5,
     question:
-      "Make sure you _______ a hotel before you come to our island, especially in the summer.",
-    answers: ["book", "keep", "put", "buy"],
+      "Thông tư 143/2023/TT-BQP quy định thời hạn xử lý kỷ luật không quá bao nhiêu ngày?",
+    answers: ["70", "80", "90", "100"],
   },
   {
     quiz_id: 6,
-    question: "Captain Cook discovered Australia on a _______ to the Pacific.",
-    answers: ["vacation", "travel", "cruise", "voyage"],
+    question: "Thông tư 143/2023/TT-BQP quy định có bao nhiêu hình thức kỷ luật đối với Sĩ quan?",
+    answers: [
+      "8",
+       "7", 
+       "6",
+        "5"
+      ],
   },
   {
     quiz_id: 7,
     question:
-      " Most tourist attractions in London charge an admission ________.",
-    answers: ["fare", "ticket", "fee", "pay"],
+      " Thông tư 143/2023/TT-BQP quy định có bao nhiêu hình thức kỷ luật đối với QNCN?",
+    answers: ["5", "6", "7", "8"],
   },
   {
     quiz_id: 8,
-    question: "The hotel where we are _______ is quite luxurious.",
-    answers: ["living", "existing", "remaining", "staying"],
+    question: "Thông tư 143/2023/TT-BQP quy định có bao nhiêu hình thức kỷ luật đối với HSQ-BS?",
+    answers: ["5", "6", "7", "8"],
   },
   {
     quiz_id: 9,
-    question: "Is English an ________ language in your country?",
-    answers: ["mother", "official", "living", "old"],
+    question: "Thông tư 143/2023/TT-BQP quy định hiệu lực thi hành kỷ luật đối với hình thức khiển trách, cảnh cáo là bao lâu?",
+    answers: ["6 tháng", "12 tháng", "24 tháng", "18 tháng"],
   },
   {
     quiz_id: 10,
-    question: "He spoke a ______ of French that we found hard to understand.",
-    answers: ["slang", "jargon", "dialect", "language"],
+    question: "Thông tư 143/2023/TT-BQP có hiệu lực từ ngày nào?",
+    answers: [
+      "15/02/2024", 
+      "12/02/2024", 
+      "12/5/2024", 
+      "14/5/2024"],
   },
 ];
 const results = [
   {
     quiz_id: 1,
-    answer: "area",
+    answer: "10",
   },
   {
     quiz_id: 3,
-    answer: "reach",
+    answer: "4 tình tiết giảm nhẹ, 5 tình tiết tăng nặng",
   },
   {
     quiz_id: 2,
-    answer: "guide",
+    answer: "7",
   },
   {
     quiz_id: 4,
-    answer: "season",
+    answer: "5 năm",
   },
   {
     quiz_id: 5,
-    answer: "book",
+    answer: "90",
   },
   {
     quiz_id: 6,
-    answer: "voyage",
+    answer: "8",
   },
   {
     quiz_id: 7,
-    answer: "fee",
+    answer: "7",
   },
   {
     quiz_id: 8,
-    answer: "staying",
+    answer: "6",
   },
   {
     quiz_id: 9,
-    answer: "official",
+    answer: "12 tháng",
   },
   {
     quiz_id: 10,
-    answer: "dialect",
+    answer: "15/02/2024",
   },
 ];
 // ________QUIZ_APP________________
